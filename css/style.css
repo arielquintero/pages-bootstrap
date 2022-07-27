@@ -1,0 +1,140 @@
+/* ------------NAV-------------------- */
+.styleNav {
+  background: linear-gradient(to left, rgb(28, 43, 73), #647daf);
+}
+.styleNav .navbar-logo {
+  color: #fff;
+  font-size: xx-large;
+  font-weight: 600;
+}
+/* ------------NAV--------------------- */
+
+/* -----------MAIN-------------------- */
+
+.styleMain {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  padding: 15vh 8vw;
+  /* transition: all 0.70s ease-in-out; */
+}
+
+/* -----------MAIN-------------------- */
+
+.home {
+  background-image: url(../img/home.jpg);
+}
+.nosotros {
+  background-image: url(../img/nosotros.jpg);
+}
+.recursos {
+  background-image: url(../img/recursos.jpg);
+}
+.clientes {
+    background-image: url(../img/clientes.png);
+}
+.formulario {
+    background-image: url(../img/formulario.jpg);
+}
+
+/* ------------FOOTER---------------- */
+
+.styleFooter {
+  background: linear-gradient(to left, rgb(28, 43, 73), #647daf); 
+  color: #fff;
+}
+
+.styleSocial,
+.styleLink,
+.copyRight {
+  color: #fff;
+}
+/* ------------FOOTER---------------- */
+
+/*      HOME         */
+
+.principal,
+.secundario,
+.terceario,
+.lead,
+.card-title,
+.card-text,
+.formText,
+.form-label,
+.form-check-label {
+  color: #fff;
+}
+.principal {
+  font-weight: 700;
+  font-size: 8vh;
+}
+
+/*      HOME         */
+
+
+/*      NOSOTROS       */
+.card {
+  background:none;
+  border:none;
+  padding: 0 5% 5% 5%;
+}
+.card-title {
+  text-align: center;
+}
+.card-text {
+  text-align: justify;
+}
+/*      NOSOTROS       */
+
+/*    RECURSOS         */
+.card-img-top {
+  padding: 2%;
+  text-align: left;
+}
+
+.card-link {
+  background-color: #647daf;
+  border-radius: 5%;
+  border: none;
+}
+/*    RECURSOS         */
+
+
+
+/*    CIELNTE         */
+.textClient,
+.textTitle {
+  color: #b2a5c0;
+  text-align: left;
+}
+.textClient {
+  font-weight: bold;
+}
+/*    CIELNTE         */
+
+
+/*    FORMULARIO     */
+.widthForm {
+  max-width: 70%;
+}
+
+.botonForm,
+.botonHome {
+  background: #647daf;
+  border: #647daf;
+}
+.botonForm:hover,
+.botonHome:hover {
+  background: #b2a5c0;
+}
+.form-control,
+.form-select {
+  opacity: 0.3;
+}
+
+@media (min-width: 576px) {
+  .widthForm {
+    max-width: 100%;
+  }
+}
